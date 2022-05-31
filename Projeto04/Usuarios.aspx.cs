@@ -24,7 +24,7 @@ namespace Projeto04
 
         protected void Salvar_Click(object sender, EventArgs e)
         {
-            if(NomeAcessoExiste(Nome.Text, Codigo.Text))
+            if(NomeAcessoExiste(Nome.Text))
             {
                 Mensagem.Text = "Esse nome de acesso já está cadastrado para outro usuário";
             }
@@ -36,7 +36,7 @@ namespace Projeto04
 
                 if (Codigo.Text == "")
                 {
-                    //filter se ouver mais de um apostofro, ele substitiu o apostofro por 2, ai o banco n entende como um delimitador
+                    //filter se ouver mais de um apostofro, ele substitiu o apostofro por 2, ai o banco não entende como um delimitador
                     comando = "INSERT INTO Usuarios(Nome,NomeAcesso,Senha) VALUES('" + Utilities.Filter(Nome.Text) + "','" + Utilities.Filter(NomeAcesso.Text) + "','" + Utilities.Filter(Senha.Text) + "');";
                     db.Query(comando);
                 }
@@ -107,16 +107,24 @@ namespace Projeto04
            
         }
 
-        protected bool NomeAcessoExiste(string nomeAcesso, string codigo)
+        protected bool NomeAcessoExiste(string nomeAcesso)
         {
-            //return false se nome ja existe para o novo usuario;
-            string comando = "SELECT * FROM Usuarios WHERE Codigo=" + Codigo.Text;
 
             AppDatabase.OleDBTransaction db = new OleDBTransaction();
             db.ConnectionString = conexao;
+
+            string comando = "SELECT * FROM Usuarios WHERE nomeAcesso='" + nomeAcesso + "'";
+
             System.Data.DataTable tb = (System.Data.DataTable)db.Query(comando);
 
-            //tb.Rows[].Coun
+            if(tb.Rows.Count > 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
 
         }
     }
