@@ -20,6 +20,7 @@
                         <asp:TextBox ID="Senha" runat="server"></asp:TextBox>
                         <br />
                         <asp:Button ID="Salvar" OnClick="Salvar_Click" runat="server" Text="Salvar" />
+                        <asp:Button ID="Deletar" Visible="false" CssClass="botao-delete" OnClick="Deletar_Click" runat="server" Text="Excluir" />
                     </div>                
                 </div>
                 <div class="col-6">

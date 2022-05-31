@@ -24,24 +24,32 @@ namespace Projeto04
 
         protected void Salvar_Click(object sender, EventArgs e)
         {
-            AppDatabase.OleDBTransaction db = new OleDBTransaction();
-            db.ConnectionString = conexao;
-            string comando;
-
-            if (Codigo.Text == "")
+            if(NomeAcessoExiste(Nome.Text, Codigo.Text))
             {
-                //filter se ouver mais de um apostofro, ele substitiu o apostofro por 2, ai o banco n entende como um delimitador
-                comando = "INSERT INTO Usuarios(Nome,NomeAcesso,Senha) VALUES('" + Utilities.Filter(Nome.Text) + "','" + Utilities.Filter(NomeAcesso.Text) + "','" + Utilities.Filter(Senha.Text) + "');";
-                db.Query(comando);
+                Mensagem.Text = "Esse nome de acesso já está cadastrado para outro usuário";
             }
             else
             {
-                comando = "UPDATE Usuarios SET nome='" + Utilities.Filter(Nome.Text) + "', nomeAcesso='" + Utilities.Filter(NomeAcesso.Text) + "', senha='" + Utilities.Filter(Senha.Text) + "' WHERE codigo =" + Codigo.Text;
-                db.Query(comando);
-            }
+                AppDatabase.OleDBTransaction db = new OleDBTransaction();
+                db.ConnectionString = conexao;
+                string comando;
 
-            LoadUsuarios();
-            LimparControles();
+                if (Codigo.Text == "")
+                {
+                    //filter se ouver mais de um apostofro, ele substitiu o apostofro por 2, ai o banco n entende como um delimitador
+                    comando = "INSERT INTO Usuarios(Nome,NomeAcesso,Senha) VALUES('" + Utilities.Filter(Nome.Text) + "','" + Utilities.Filter(NomeAcesso.Text) + "','" + Utilities.Filter(Senha.Text) + "');";
+                    db.Query(comando);
+                }
+                else
+                {
+                    comando = "UPDATE Usuarios SET nome='" + Utilities.Filter(Nome.Text) + "', nomeAcesso='" + Utilities.Filter(NomeAcesso.Text) + "', senha='" + Utilities.Filter(Senha.Text) + "' WHERE codigo =" + Codigo.Text;
+                    db.Query(comando);
+                }
+
+                LoadUsuarios();
+                LimparControles();
+            }
+            
         }
 
 
@@ -64,6 +72,7 @@ namespace Projeto04
             Nome.Text = "";
             NomeAcesso.Text = "";
             Senha.Text = "";
+            Deletar.Visible = false;
         }
 
 
@@ -81,7 +90,33 @@ namespace Projeto04
             Nome.Text = tb.Rows[0]["Nome"].ToString();
             NomeAcesso.Text = tb.Rows[0]["NomeAcesso"].ToString();
             Senha.Text = tb.Rows[0]["Senha"].ToString();
+            Deletar.Visible = true;
 
+        }
+
+        protected void Deletar_Click(object sender, EventArgs e)
+        {
+            AppDatabase.OleDBTransaction db = new OleDBTransaction();
+            db.ConnectionString = conexao;
+            string comando;
+
+            comando = "DELETE FROM Usuarios WHERE codigo=" + Codigo.Text;
+            db.Query(comando);
+            LoadUsuarios();
+            LimparControles();
+           
+        }
+
+        protected bool NomeAcessoExiste(string nomeAcesso, string codigo)
+        {
+            //return false se nome ja existe para o novo usuario;
+            string comando = "SELECT * FROM Usuarios WHERE Codigo=" + Codigo.Text;
+
+            AppDatabase.OleDBTransaction db = new OleDBTransaction();
+            db.ConnectionString = conexao;
+            System.Data.DataTable tb = (System.Data.DataTable)db.Query(comando);
+
+            //tb.Rows[].Coun
 
         }
     }
