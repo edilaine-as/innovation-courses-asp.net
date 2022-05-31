@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ADS2022T</name>
+    </assembly>
+    <members>
+        <member name="T:ADS2022T.TratamentoExcecao">
+            <summary>
+            Esta classe faz o tratamento das exceções salvas no arquivo de log Excecao.txt.
+            </summary>
+        </member>
+        <member name="P:ADS2022T.TratamentoExcecao.FileName">
+            <summary>
+            Obtém ou define o nome do arquivo de log de exceções.
+            </summary>
+        </member>
+        <member name="M:ADS2022T.TratamentoExcecao.SaveException(System.Exception)">
+            <summary>
+            Salva os dados da exceção no arquivo Excecao.txt.
+            </summary>
+            <param name="ex">Dados da exceção da classe Exception</param>
+        </member>
+        <member name="M:ADS2022T.TratamentoExcecao.LoadException">
+            <summary>
+            Recupera todas as ocorrências no arquivo Excecoes.txt.
+            </summary>        
+        </member>
+        <member name="M:ADS2022T.TratamentoExcecao.ClearException">
+            <summary>
+            Limpar Conteudo de arquivo de execeções
+            </summary>        
+        </member>
+    </members>
+</doc>

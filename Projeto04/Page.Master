@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="Projeto04.Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!--REFERÊNCIA DA FOLHA DE ESTILO-->
+    <link href="css/Projeto.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+
+    <!-- REF: http://flexslider.woothemer.com/video.html -->
+    <!-- ARQUIVOS JAVASCRIPTS E CSS PARA EXIBIR SLIDES -->
+    <!-- TEM QUE SER NESSA ORDEM -->
+    <link href="js/flexslider.css" rel="stylesheet" />
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/flexslider.min.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="content-wrap">
+            <!--CABEÇALHO-->
+            <div class="cabecalho">
+
+
+                <!--LOGOMARCA-->
+                <div class="logomarca">
+                    <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Default.aspx">
+                        <asp:Image ImageUrl="Imagem/logo%20fatec.png" ID="Image2" runat="server" />
+                    </asp:HyperLink>
+                </div>
+
+                <!--BARRA DE TÍTULO-->
+                <div class="barra-titulo">
+                </div>
+
+                <!--MENU-->
+                <div class="barra-menu">
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">Home</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Sobre.aspx" runat="server">Sobre</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Linguagens.aspx" runat="server">Linguagens</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Info.aspx" runat="server">Informações</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink5" NavigateUrl="~/FaleConosco.aspx" runat="server">Fale Conosco</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink7" NavigateUrl="~/ExibirExcecoes.aspx" runat="server">Exibir Exceções</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink8" NavigateUrl="~/Usuarios.aspx" runat="server">Usuários</asp:HyperLink>
+                </div>
+
+            </div>
+        </div>
+
+        <!--CONTEÚDO-->
+        <div class="conteudo content-wrap">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!--RODAPÉ-->
+        <div class="rodape">
+            <br />
+            <br />
+            <br />
+            <h3 style="text-align: right; margin-right: 10px;">Todos os direitos reservados © 2022 | Diego Sousa & Mônica Regina</h3>
+        </div>
+    </form>
+</body>
+</html>

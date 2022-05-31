@@ -1,0 +1,299 @@
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll.config
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Projeto04.pdb
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe.config
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.rsp
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe.config
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.rsp
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.AppContext.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Collections.Immutable.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Console.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Compression.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Reflection.Metadata.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.AccessControl.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Claims.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.ValueTuple.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe.config
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.rsp
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe.config
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CoreCompileInputs.cache
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CopyComplete
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.pdb
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll.config
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Projeto04.pdb
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe.config
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.rsp
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe.config
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.rsp
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.AppContext.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Collections.Immutable.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Console.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Compression.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Reflection.Metadata.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.AccessControl.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Claims.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.ValueTuple.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe.config
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.rsp
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe.config
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csprojAssemblyReference.cache
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CoreCompileInputs.cache
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CopyComplete
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.dll
+E:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.pdb
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.AssemblyReference.cache
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.dll
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.pdb
+D:\Fatec 2022 - ADS\Linguagem de Programação II - C#\Web\Projetos\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.xml
+D:\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll.config
+D:\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\Projeto04.pdb
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe.config
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.rsp
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe.config
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.rsp
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.AppContext.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Collections.Immutable.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Console.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Compression.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.AccessControl.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Claims.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.ValueTuple.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe.config
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.rsp
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe
+D:\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe.config
+D:\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.pdb
+D:\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.xml
+D:\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.AssemblyReference.cache
+D:\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CoreCompileInputs.cache
+D:\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CopyComplete
+D:\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.dll
+D:\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.pdb
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll.config
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\Projeto04.pdb
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe.config
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.rsp
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe.config
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.rsp
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.AppContext.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Collections.Immutable.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Console.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Compression.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Reflection.Metadata.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.AccessControl.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Claims.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Principal.Windows.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.ValueTuple.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe.config
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.rsp
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe.config
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.pdb
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.xml
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WEB\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CoreCompileInputs.cache
+D:\WEB\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CopyComplete
+D:\WEB\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.pdb
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\AppDatabase.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\FirebirdSql.Data.FirebirdClient.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\MySql.Data.dll
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\AppDatabase.pdb
+D:\WEB\Projeto 4\Projeto04\Projeto04\bin\AppDatabase.xml
+D:\WEB\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csprojAssemblyReference.cache
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll.config
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\Projeto04.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\Projeto04.pdb
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.exe.config
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\csc.rsp
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.exe.config
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\csi.rsp
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.AppContext.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Console.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Compression.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.IO.Pipes.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Claims.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.ValueTuple.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.exe.config
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\vbc.rsp
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\MySql.Data.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.pdb
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\ADS2022T.xml
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\AppDatabase.pdb
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\AppDatabase.xml
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.AssemblyReference.cache
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CoreCompileInputs.cache
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.csproj.CopyComplete
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.dll
+C:\Users\0040482022009\Downloads\ProjetoBala\Projeto 4\Projeto04\Projeto04\obj\Debug\Projeto04.pdb

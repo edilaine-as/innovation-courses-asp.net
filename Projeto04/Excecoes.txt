@@ -1,0 +1,5 @@
+Data: 26/04/2022 17:14:15
+Mensagem: Falha na transação. A resposta do servidor foi: Please use smtp authentication for port (587) 201.74.221.250
+------------------------------Data: 26/04/2022 17:14:47
+Mensagem: Serviço não disponível, fechando o canal de transmissão. A resposta do servidor foi: Thread limit exceeded g_thread_max 291/290, try increasing to 900, if problem persists send Netwin tellmail status!
+------------------------------
