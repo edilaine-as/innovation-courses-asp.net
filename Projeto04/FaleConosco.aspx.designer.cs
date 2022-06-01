@@ -7,11 +7,13 @@
 // </gerado automaticamente>
 //------------------------------------------------------------------------------
 
-namespace Projeto04 {
-    
-    
-    public partial class FaleConosco {
-        
+namespace Projeto04
+{
+
+
+    public partial class FaleConosco
+    {
+
         /// <summary>
         /// Controle Msg.
         /// </summary>
@@ -20,16 +22,7 @@ namespace Projeto04 {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Msg;
-        
-        /// <summary>
-        /// Controle Mensagem.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Mensagem;
-        
+
         /// <summary>
         /// Controle Nome.
         /// </summary>
@@ -38,7 +31,7 @@ namespace Projeto04 {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Nome;
-        
+
         /// <summary>
         /// Controle Email.
         /// </summary>
@@ -47,14 +40,23 @@ namespace Projeto04 {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Email;
-        
+
         /// <summary>
-        /// Controle Enviar.
+        /// Controle Mensagem.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Enviar;
+        protected global::System.Web.UI.WebControls.TextBox Mensagem;
+
+        /// <summary>
+        /// Controle Button1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

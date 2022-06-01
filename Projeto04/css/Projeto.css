@@ -1,58 +1,94 @@
-﻿/* PROJETO WEB - TURMA ADS 2022 VESPERTINO */
+﻿@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Baloo+Da+2:wght@800&family=Sen:wght@400;700;800&display=swap');
 
-/* CABEÇALHO */
-.cabecalho {
-    height: 81px;
-    width: 100%;
-    border-bottom: 1px solid #808080;
-    position: relative; /* permite que elementos tenham posições ABSOLUTAS dentro do cabeçalho */
+:root {
+    --fonte-titulo-destaque: 'Baloo Da 2', cursive;
+    --fonte-titulo: 'Baloo Chettan 2', cursive;
+    --fonte-paragrafo: 'Sen', sans-serif;
 }
 
-.logomarca{
-    position: absolute;
-    top:0;
-    left:0;
-    height:80px;
-    width:80px;
+
+body {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
 }
 
-.barra-titulo{
-    position:absolute;
-    top:0;
-    left: 81px;
-    right:0;
-    bottom: 40px;
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.barra-menu{
-    position:absolute;
-    left:81px;
-    right:0px;
-    bottom:0px;
-    height: 40px;
-    text-align:right;
+
+h1 {
+    font-family: var(--fonte-titulo);
 }
 
-.barra-menu a {
-    color: #333333;
-    font-size: 14px;
-    margin-left: 4px;
-    margin-right: 4px;
-    padding-bottom: 2px;
-    text-decoration: none;
-    border-bottom: 3px solid transparent;
+h2 {
+    font-family: var(--fonte-titulo-destaque);
 }
 
-.barra-menu a:hover {
-    color: black;
-    border-bottom: 3px solid black;
+p, .btn {
+    margin: 0;
+    font-family: var(--fonte-paragrafo);
 }
 
-.conteudo{
-    min-height:800px;
+textarea {
+    resize: none !important;
 }
 
-.rodape{
-    height:100px;
-    background-color:#1cb0ba;
+input, textarea {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.desc-icon {
+    text-align: center;
+    width: 200px;
+}
+
+.fa-location-dot {
+    color: #E50027;
+}
+
+.fa-phone {
+    color: #00A7E1;
+}
+
+.fa-envelope {
+    color: blue;
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    /*Apagando do fundo tudo que não estiver imediatamente atrás de texto*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    /*Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text`*/
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+    color: #1977F2;
+}
+
+.fa-instagram-square {
+    color: #EE077D;
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /*Apagando do fundo tudo que não estiver imediatamente atrás de texto*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    /*Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text`*/
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin {
+    color: #0966C2;
+}
+
+footer {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
 }

@@ -5,6 +5,7 @@
 <html>
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -12,6 +13,7 @@
     <!--REFERÊNCIA DA FOLHA DE ESTILO-->
     <link href="css/Projeto.css" rel="stylesheet" />
     <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- REF: http://flexslider.woothemer.com/video.html -->
     <!-- ARQUIVOS JAVASCRIPTS E CSS PARA EXIBIR SLIDES -->
@@ -20,59 +22,93 @@
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/flexslider.min.js"></script>
 
+
+
 </head>
 <body>
     <form id="form1" runat="server">
+        <!--HEADER-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
+          <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-graduation-cap mx-2"></i>
+              Innovation Courses
+          </a>
 
-        <div class="content-wrap">
-            <!--CABEÇALHO-->
-            <div class="cabecalho">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-
-                <!--LOGOMARCA-->
-                <div class="logomarca">
-                    <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Default.aspx">
-                        <asp:Image ImageUrl="Imagem/logo%20fatec.png" ID="Image2" runat="server" />
-                    </asp:HyperLink>
-                </div>
-
-                <!--BARRA DE TÍTULO-->
-                <div class="barra-titulo">
-                </div>
-
-                <!--MENU-->
-                <div class="barra-menu">
-                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">Home</asp:HyperLink>
-
-                    <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Sobre.aspx" runat="server">Sobre</asp:HyperLink>
-
-                    <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Linguagens.aspx" runat="server">Linguagens</asp:HyperLink>
-
-                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Info.aspx" runat="server">Informações</asp:HyperLink>
-
-                    <asp:HyperLink ID="HyperLink5" NavigateUrl="~/FaleConosco.aspx" runat="server">Fale Conosco</asp:HyperLink>
-
-                    <asp:HyperLink ID="HyperLink7" NavigateUrl="~/ExibirExcecoes.aspx" runat="server">Exibir Exceções</asp:HyperLink>
-
-                    <asp:HyperLink ID="HyperLink8" NavigateUrl="~/Usuarios.aspx" runat="server">Usuários</asp:HyperLink>
-                </div>
-
-            </div>
-        </div>
+          <div class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="Default.aspx">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre.aspx">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FaleConosco.aspx">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
         <!--CONTEÚDO-->
-        <div class="conteudo content-wrap">
+        <div class="container">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
 
         <!--RODAPÉ-->
-        <div class="rodape">
-            <br />
-            <br />
-            <br />
-            <h3 style="text-align: right; margin-right: 10px;">Todos os direitos reservados © 2022 | Diego Sousa & Mônica Regina</h3>
+        <div class="bg-dark">
+            <footer class="py-3">
+            <div class="row d-flex flex-wrap mx-2">
+                <div class="col-md-3 col-sm-12">
+                <h5>Sobre</h5>
+                    <p style="max-width:350px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget tortor eget mauris rutrum interdum.</p>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                <h5>Início</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="Default.aspx" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cursos</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Downloads</a></li>
+                </ul>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                <h5>Suporte</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="FaleConosco.aspx" class="nav-link p-0 text-muted">Contato</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fórum</a></li>
+                </ul>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                <h5>Admin</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="ExibirExcecoes.aspx" class="nav-link p-0 text-muted">Exceções</a></li>
+                    <li class="nav-item mb-2"><a href="Usuarios.aspx" class="nav-link p-0 text-muted">Usuários</a></li>
+                </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 justify-content-end ">
+                <h5>Localização</h5>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.6919946833546!2d-47.3523499850375!3d-22.73968678509704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89bea5cdb94f9%3A0xffb368bd91ea12ae!2sFatec%20Americana%20-%20Faculdade%20de%20Tecnologia%20de%20Americana%20Ministro%20Ralph%20Biasi!5e0!3m2!1spt-BR!2sbr!4v1651598924325!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p>R. Emílio de Menezes, s/n – Vila Amorim</p>
+                </div>
+            </div>
+            
+            <hr />
+            <div class="d-flex justify-content-center pt-2">
+                <p>© 2022 Edilaine Santos</p>
+            </div>
+            </footer>
         </div>
     </form>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b83ae2da01.js" crossorigin="anonymous"></script>
 </body>
 </html>

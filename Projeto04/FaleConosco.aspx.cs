@@ -30,25 +30,25 @@ namespace Projeto04
 
                 if (mensagem == "")
                 {
-                    Msg.Text = "Digite a mensagem!!!";
+                    Msg.Text = "Ops... Para continuar você deve informar uma mensagem!";
                 }
                 else if (nome == "")
                 {
-                    Msg.Text = "Digite seu nome!!!";
+                    Msg.Text = "Ops... Para continuar você deve informar um nome!";
                 }
                 else if (email == "")
                 {
-                    Msg.Text = "Digite seu e-mail!!!";
+                    Msg.Text = "Ops... Para continuar você deve informar um email!";
                 }
                 else
                 {
                     // 2. CRIAR O PACOTE DO EMAIL
                     // Criar uma instância da classe MailMessage
                     MailMessage mail = new MailMessage();
-                    mail.To.Add("contato@seudominio.com");
+                    mail.To.Add("edilaine.santos839@gmail.com"); //"contato@seudominio.com"
                     mail.Subject = "E-mail enviado pelo formulário do contato";
 
-                    MailAddress from = new MailAddress("contato@seudominio.com");
+                    MailAddress from = new MailAddress(email); //"contato@seudominio.com"
                     mail.From = from;
                     mail.Body = "Mensagem: " + mensagem + "\n";
                     mail.Body += "Nome: " + nome + "\n";
@@ -58,7 +58,7 @@ namespace Projeto04
                     // 3. ENVIAR O E-MAIL
                     //Criar uma instância da classe SmtpClient
                     SmtpClient smtp = new SmtpClient();
-                    smtp.Host = "smtp.seudominio.com";
+                    smtp.Host = "smtp.seudominio.com"; //"smtp.seudominio.com"
                     smtp.Port = 587;
                     smtp.Credentials = new System.Net.NetworkCredential("contato@seudominio.com", "suasenha");
                     smtp.Send(mail);
