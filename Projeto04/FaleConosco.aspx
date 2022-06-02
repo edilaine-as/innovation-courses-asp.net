@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="text-center mb-5 mt-5">
             <h1>Fale Conosco</h1>
             <hr />
@@ -20,7 +20,7 @@
 
                 <asp:TextBox ID="Email" placeholder="E-mail" CssClass="input-group mb-3" MaxLength="256" runat="server"></asp:TextBox>
 
-                <asp:TextBox ID="Mensagem" placeholder="Mensagem" CssClass="input-group mb-3" TextMode="MultiLine" MaxLength="256" Rows="5" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Mensagem" placeholder="Mensagem" CssClass="input-group mb-3" TextMode="MultiLine" MaxLength="256" Rows="12" runat="server"></asp:TextBox>
 
                 <div class="w-100 d-flex justify-content-center mb-lg-0 mb-sm-5 mb-5">
                     <asp:Button Text="Enviar" ID="Button1" OnClick="Enviar_Click" runat="server" CssClass="btn btn-primary w-50" />
@@ -56,11 +56,6 @@
                 </div>
             </div>
         </div>
-        <!--<div class="row mb-5">
-            <div style="height:500px">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.6919946833546!2d-47.3523499850375!3d-22.73968678509704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89bea5cdb94f9%3A0xffb368bd91ea12ae!2sFatec%20Americana%20-%20Faculdade%20de%20Tecnologia%20de%20Americana%20Ministro%20Ralph%20Biasi!5e0!3m2!1spt-BR!2sbr!4v1651598924325!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-        </div>-->
     </div>
 
 </asp:Content>

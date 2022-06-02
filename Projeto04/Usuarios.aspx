@@ -15,7 +15,7 @@
             </div>
             <div class="row d-flex justify-content-center"> 
                 <!--Formulário-->
-                <div class="col-6">
+                <div class="col-md-8 col-sm-12 col-12">
                     <asp:Label ID="Codigo" Visible="false" CssClass="d-flex justify-content-end" runat="server" Text=""></asp:Label>
                     <asp:Label ID="Mensagem" CssClass="d-flex justify-content-end" runat="server" ></asp:Label><br />
                     <asp:TextBox ID="Nome" placeholder="Nome" CssClass="input-group mb-3" runat="server"></asp:TextBox>
@@ -29,11 +29,9 @@
             </div>
             <div class="row mt-5">
                 <div class="col-12">
-                    <asp:GridView CssClass="table table-striped" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
+                    <asp:GridView CssClass="table table-striped table-bordered table-responsive" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
                 </div>
-            </div>
-                
-            
+            </div>              
         </div>
 
 
