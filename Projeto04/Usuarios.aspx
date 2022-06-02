@@ -18,12 +18,9 @@
                 <div class="col-6">
                     <asp:Label ID="Codigo" Visible="false" CssClass="d-flex justify-content-end" runat="server" Text=""></asp:Label>
                     <asp:Label ID="Mensagem" CssClass="d-flex justify-content-end" runat="server" ></asp:Label><br />
-                    <label>Nome</label>
-                    <asp:TextBox ID="Nome" CssClass="input-group mb-3" runat="server"></asp:TextBox>
-                    <label>Nome Acesso</label>
-                    <asp:TextBox ID="NomeAcesso" CssClass="input-group mb-3" runat="server"></asp:TextBox>
-                    <label>Senha</label>
-                    <asp:TextBox ID="Senha" CssClass="input-group mb-3" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Nome" placeholder="Nome" CssClass="input-group mb-3" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="NomeAcesso" placeholder="Usuário" CssClass="input-group mb-3" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Senha" placeholder="Senha" CssClass="input-group mb-3" runat="server"></asp:TextBox>
                     <div class="w-100 d-flex justify-content-center mb-lg-0 mb-sm-5 mb-5">
                         <asp:Button Text="Salvar" Visible="true" ID="Salvar" OnClick="Salvar_Click" runat="server" CssClass="btn btn-primary w-50" />
                         <asp:Button Text="Deletar" Visible="false" ID="Deletar" OnClick="Deletar_Click" runat="server" CssClass="btn btn-danger danger w-50" />

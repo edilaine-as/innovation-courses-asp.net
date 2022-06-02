@@ -16,14 +16,11 @@
         <div class="row mt-5 mb-5">
             <asp:Label ID="Msg" runat="server" ForeColor="red"></asp:Label>
             <div class="col-md-6 col-sm-12">
-                <label>Nome</label>
-                <asp:TextBox ID="Nome" CssClass="input-group mb-3" MaxLength="100" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Nome" placeholder="Nome" CssClass="input-group mb-3" MaxLength="100" runat="server"></asp:TextBox>
 
-                <label>E-mail</label>
-                    <asp:TextBox ID="Email" CssClass="input-group mb-3" MaxLength="256" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Email" placeholder="E-mail" CssClass="input-group mb-3" MaxLength="256" runat="server"></asp:TextBox>
 
-                <label>Mensagem</label>
-                <asp:TextBox ID="Mensagem" CssClass="input-group mb-3" TextMode="MultiLine" MaxLength="256" Rows="5" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Mensagem" placeholder="Mensagem" CssClass="input-group mb-3" TextMode="MultiLine" MaxLength="256" Rows="5" runat="server"></asp:TextBox>
 
                 <div class="w-100 d-flex justify-content-center mb-lg-0 mb-sm-5 mb-5">
                     <asp:Button Text="Enviar" ID="Button1" OnClick="Enviar_Click" runat="server" CssClass="btn btn-primary w-50" />
