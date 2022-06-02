@@ -1,33 +1,42 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="Usuarios.aspx.cs" Inherits="Projeto04.Usuarios" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
+    <style>
+        .danger{
+            background-color: #dc3545 !important;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-        <div class="margin-top-60">
-            <div class="row"> 
+        <div class="container mt-5">
+            <div class="text-center mb-2 mt-5">
+                <h1>Cadastrar usuário</h1>
+                <hr />
+            </div>
+            <div class="row d-flex justify-content-center"> 
                 <!--Formulário-->
                 <div class="col-6">
-                    <div class="box margin-right-20">
-                        <asp:Label ID="Mensagem" runat="server" ></asp:Label>
-                        <br />
-                        <asp:Label ID="Codigo" runat="server" Text=""></asp:Label>
-                        <br />
-                        <label>NOME</label>
-                        <asp:TextBox ID="Nome" runat="server"></asp:TextBox>
-                        <label>NOME ACESSO</label>
-                        <asp:TextBox ID="NomeAcesso" runat="server"></asp:TextBox>
-                        <label>SENHA</label>
-                        <asp:TextBox ID="Senha" runat="server"></asp:TextBox>
-                        <br />
-                        <asp:Button ID="Salvar" OnClick="Salvar_Click" runat="server" Text="Salvar" />
-                        <asp:Button ID="Deletar" Visible="false" CssClass="botao-delete" OnClick="Deletar_Click" runat="server" Text="Excluir" />
-                    </div>                
-                </div>
-                <div class="col-6">
-                    <asp:GridView AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" ID="ExibirUsuarios" CellPadding="8" Width="100%" BorderColor="#c0c0c0" runat="server"></asp:GridView>
+                    <asp:Label ID="Codigo" Visible="false" CssClass="d-flex justify-content-end" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="Mensagem" CssClass="d-flex justify-content-end" runat="server" ></asp:Label><br />
+                    <label>Nome</label>
+                    <asp:TextBox ID="Nome" CssClass="input-group mb-3" runat="server"></asp:TextBox>
+                    <label>Nome Acesso</label>
+                    <asp:TextBox ID="NomeAcesso" CssClass="input-group mb-3" runat="server"></asp:TextBox>
+                    <label>Senha</label>
+                    <asp:TextBox ID="Senha" CssClass="input-group mb-3" runat="server"></asp:TextBox>
+                    <div class="w-100 d-flex justify-content-center mb-lg-0 mb-sm-5 mb-5">
+                        <asp:Button Text="Salvar" Visible="true" ID="Salvar" OnClick="Salvar_Click" runat="server" CssClass="btn btn-primary w-50" />
+                        <asp:Button Text="Deletar" Visible="false" ID="Deletar" OnClick="Deletar_Click" runat="server" CssClass="btn btn-danger danger w-50" />
+                    </div>            
                 </div>
             </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <asp:GridView CssClass="table table-striped" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
+                </div>
+            </div>
+                
+            
         </div>
 
 

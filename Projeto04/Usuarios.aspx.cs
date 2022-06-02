@@ -79,7 +79,7 @@ namespace Projeto04
         //CARREGA CAMPOS DE ACORDO COM CODIGO SELECIONADO
         protected void ExibirUsuarios_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Codigo.Text = ExibirUsuarios.SelectedRow.Cells[1].Text;
+            Codigo.Text += ExibirUsuarios.SelectedRow.Cells[1].Text;
 
             string comando = "SELECT * FROM Usuarios WHERE Codigo=" + Codigo.Text;
 
