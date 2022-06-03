@@ -62,8 +62,7 @@ namespace Projeto04
             System.Data.DataTable tb = (System.Data.DataTable)db.Query(comando);
 
             ExibirUsuarios.DataSource = tb;
-            ExibirUsuarios.DataBind(); 
-
+            ExibirUsuarios.DataBind();
         }
 
         protected void LimparControles()

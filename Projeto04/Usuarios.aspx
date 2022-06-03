@@ -28,9 +28,12 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-12">
-                    <asp:GridView CssClass="table table-striped table-bordered table-responsive" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
-                </div>
+                <section class="content">
+                    <div class="container-fluid table-responsive p-0">
+                        <asp:GridView CssClass="table table-striped table-bordered" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
+                    </div>
+                </section>
+                    
             </div>              
         </div>
 

@@ -80,12 +80,12 @@
         <div class="container my-5">
             <h1 class="text-center">Sobre a Innovation Courses</h1>
             <hr />
-            <div class="row mt-5">
-                <div class="col-md-6 col-sm-12 col-12">
+            <div class="row my-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <img src="Imagem/sobre-01.png" class="img-fluid" alt="...">
                 </div>
-                <div class="col-md-6 col-sm-12 col-12">
-                    <h5>Uma instituição acolhedora</h5>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <h5 class="mt-lg-0 mt-md-0 mt-sm-3 mt-3">Uma instituição acolhedora</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
                     <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
@@ -101,6 +101,10 @@
                     </ul>
                 </div>
             </div>
+        </div>
+
+        <div>
+            <img class="thumbnail min-vw-100 img-fluid background" style="margin-top: 100px" src="Imagem/paralax3.jpg" alt="Parallax" />
         </div>
 
         <!--DADOS-->

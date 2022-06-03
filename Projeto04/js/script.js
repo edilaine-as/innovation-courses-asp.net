@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
     progress bar
     let containerA = document.getElementById("circleA");
     let circleA = new ProgressBar.Circle(containerA, {
@@ -16,4 +16,9 @@ $(document).ready(function () {
     });
 
     circleA.animate(1.0);
+});*/
+
+var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image, {
+    scale: 1.5
 });
