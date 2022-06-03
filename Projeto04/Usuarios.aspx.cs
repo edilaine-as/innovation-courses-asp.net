@@ -119,11 +119,11 @@ namespace Projeto04
 
             if(tb.Rows.Count > 0)
             {
-                return false;
+                return true;
             }
             else
             {
-                return true;
+                return false;
             }
 
         }

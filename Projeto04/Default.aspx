@@ -6,6 +6,31 @@
           background: url("https://i.stack.imgur.com/yiAZV.jpg") no-repeat center;
           filter: brightness(0.25) opacity(0.75);
         }
+        .ul-about{
+            list-style: none;
+            padding-left: 0;
+        }
+        .ul-about li{
+            line-height: 30px
+        }
+        .ul-about i{
+            color: #CD851C;
+            margin-right: 10px
+        }
+
+        .circle-box div{
+            padding: 0 40px;
+        }
+        .progressbar-text{
+            font-weight: bold;
+            font-size: 32px
+        }
+        #data-area p{
+            color: #FFF;
+            text-align: center;
+            font-size: 26px;
+            margin-top: 20px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -66,6 +91,38 @@
                     <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
                     <p>Quisque eleifend eleifend pellentesque.</p>
                     <p>Quisque eleifend eleifend pellentesque:</p>
+                    <ul class="ul-about">
+                        <li><i class="fa-solid fa-check"></i>Mauris iaculis rhoncus</li>
+                        <li><i class="fa-solid fa-check"></i>Auctor nisl pellentesque eget</li>
+                        <li><i class="fa-solid fa-check"></i>Nam feugiat leo felis</li>
+                        <li><i class="fa-solid fa-check"></i>Mauris iaculis rhoncus</li>
+                        <li><i class="fa-solid fa-check"></i>Auctor nisl pellentesque eget</li>
+                        <li><i class="fa-solid fa-check"></i>Nam feugiat leo felis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--DADOS-->
+        <div id="data-area" class="min-vw-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 circle-box">
+                        <div id="circleA"></div>
+                        <p>Mauris iaculis</p>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleB"></div>
+                        <p>Mauris iaculis</p>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleC"></div>
+                        <p>Mauris iaculis</p>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleD"></div>
+                        <p>Mauris iaculis</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -118,9 +118,8 @@
     <Content Include="Imagem\siga.png" />
     <Content Include="Imagem\teams.png" />
     <Content Include="Info.aspx" />
-    <Content Include="js\flexslider.css" />
-    <Content Include="js\flexslider.min.js" />
-    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\progressbar.min.js" />
+    <Content Include="js\script.js" />
     <Content Include="Linguagens.aspx" />
     <Content Include="Sobre.aspx" />
     <Content Include="Usuarios.aspx" />
