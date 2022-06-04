@@ -115,16 +115,22 @@ namespace Projeto04
             db.ConnectionString = conexao;
 
             string comando = "SELECT * FROM Usuarios WHERE nomeAcesso='" + nomeAcesso + "'";
-
             System.Data.DataTable tb = (System.Data.DataTable)db.Query(comando);
 
-            if(tb.Rows.Count > 0)
+            if (codigo != "")
             {
-                return true;
+                return false;
             }
             else
             {
-                return false;
+                if (tb.Rows.Count > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
 
         }
