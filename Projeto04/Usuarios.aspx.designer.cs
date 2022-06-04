@@ -15,15 +15,6 @@ namespace Projeto04
     {
 
         /// <summary>
-        /// Controle Codigo.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Codigo;
-
-        /// <summary>
         /// Controle Mensagem.
         /// </summary>
         /// <remarks>
@@ -31,6 +22,15 @@ namespace Projeto04
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Mensagem;
+
+        /// <summary>
+        /// Controle Codigo.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Codigo;
 
         /// <summary>
         /// Controle Nome.
@@ -58,6 +58,15 @@ namespace Projeto04
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Senha;
+
+        /// <summary>
+        /// Controle Fechar.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Fechar;
 
         /// <summary>
         /// Controle Salvar.

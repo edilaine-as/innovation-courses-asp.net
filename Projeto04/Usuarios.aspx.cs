@@ -24,8 +24,9 @@ namespace Projeto04
 
         protected void Salvar_Click(object sender, EventArgs e)
         {
-            if(NomeAcessoExiste(Nome.Text))
+            if(NomeAcessoExiste(Nome.Text, Codigo.Text))
             {
+                Mensagem.Visible = true;
                 Mensagem.Text = "Esse nome de acesso já está cadastrado para outro usuário";
             }
             else
@@ -78,12 +79,13 @@ namespace Projeto04
         //CARREGA CAMPOS DE ACORDO COM CODIGO SELECIONADO
         protected void ExibirUsuarios_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Codigo.Text += ExibirUsuarios.SelectedRow.Cells[1].Text;
+            Codigo.Text = ExibirUsuarios.SelectedRow.Cells[1].Text;
 
             string comando = "SELECT * FROM Usuarios WHERE Codigo=" + Codigo.Text;
 
             AppDatabase.OleDBTransaction db = new OleDBTransaction();
             db.ConnectionString = conexao;
+            db.Query(comando);
             System.Data.DataTable tb = (System.Data.DataTable)db.Query(comando);
 
             Nome.Text = tb.Rows[0]["Nome"].ToString();
@@ -106,7 +108,7 @@ namespace Projeto04
            
         }
 
-        protected bool NomeAcessoExiste(string nomeAcesso)
+        protected bool NomeAcessoExiste(string nomeAcesso, string codigo)
         {
 
             AppDatabase.OleDBTransaction db = new OleDBTransaction();
