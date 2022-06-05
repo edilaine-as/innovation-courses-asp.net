@@ -105,5 +105,14 @@ $(document).ready(function () {
     setTimeout(function () {
         $('#data-area').parallax({ imageSrc: 'Imagem/paralax3.jpg' });
     }, 200);
+
+    function LimparModal() {
+        document.getElementById('ContentPlaceHolder1_Codigo').value = "";
+        document.getElementById('ContentPlaceHolder1_Nome').value = "";
+        document.getElementById('ContentPlaceHolder1_NomeAcesso').value = "";
+        document.getElementById('ContentPlaceHolder1_Senha').value = "";
+
+        $('.icon-delete').addClass('d-none');
+    }
 });
 

@@ -12,7 +12,7 @@
             <div class="my-4">
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
                     <div>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cadUser">Pressione para cadastrar!</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" onclick="LimparModal();" data-bs-target="#cadUser">Pressione para cadastrar!</button>
                     </div>
                     <div>
                         <asp:Label ID="Mensagem" class="alert alert-danger" role="alert" Visible="false" runat="server" ></asp:Label><br />   
@@ -30,11 +30,11 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="cadUserLabel">Cadastro de usuário</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar" runat="server"></button>
                   </div>
                   <div class="modal-body">
                     <!--formulário-->
-                    <asp:Label ID="Codigo" Visible="false" CssClass="d-flex justify-content-end" runat="server" Text=""></asp:Label>  
+                    <asp:Label ID="Codigo" CssClass="d-none" runat="server" Text=""></asp:Label>  
                     <asp:TextBox ID="Nome" placeholder="Nome" CssClass="input-group mb-3" runat="server"></asp:TextBox>
                     <asp:TextBox ID="NomeAcesso" placeholder="Usuário" CssClass="input-group mb-3" runat="server"></asp:TextBox>
                     <asp:TextBox ID="Senha" placeholder="Senha" CssClass="input-group mb-3" runat="server"></asp:TextBox>
@@ -59,11 +59,22 @@
             <div class="row mt-1">
                 <section class="content">
                     <div class="container-fluid table-responsive p-0">
-                        <asp:GridView CssClass="table table-striped table-bordered" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
+                        <asp:GridView CssClass="table table-striped table-bordered" data-bs-toggle="modal" data-bs-target="#cadUser" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
                     </div>
                 </section>
             </div>
             
         </div>
+
+    <script>
+        function LimparModal() {
+            document.getElementById('ContentPlaceHolder1_Codigo').value = "";
+            document.getElementById('ContentPlaceHolder1_Nome').value = "";
+            document.getElementById('ContentPlaceHolder1_NomeAcesso').value = "";
+            document.getElementById('ContentPlaceHolder1_Senha').value = "";
+
+            $('.icon-delete').addClass('d-none');
+        }
+    </script>
         
 </asp:Content>
