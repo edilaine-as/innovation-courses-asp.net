@@ -11,22 +11,23 @@
             padding-left: 0;
         }
         .ul-about li{
-            line-height: 30px
+            line-height: 30px;
         }
         .ul-about i{
             color: #CD851C;
-            margin-right: 10px
+            margin-right: 10px;
         }
 
+        /*DADOS*/
         .circle-box div{
             padding: 0 40px;
         }
         .progressbar-text{
             font-weight: bold;
-            font-size: 32px
+            font-size: 32px;
         }
         #data-area p{
-            color: #FFF;
+            color: #000000;
             text-align: center;
             font-size: 26px;
             margin-top: 20px;
@@ -103,12 +104,10 @@
             </div>
         </div>
 
-        <div>
-            <img class="thumbnail min-vw-100 img-fluid background" style="margin-top: 100px" src="Imagem/paralax3.jpg" alt="Parallax" />
-        </div>
-
         <!--DADOS-->
-        <div id="data-area" class="min-vw-100">
+        <div id="data-area">
+            <!--PARALLAX-->
+            <img class="thumbnail min-vw-100 img-fluid background" style="margin-top: 100px" src="Imagem/paralax3.jpg" alt="Parallax" />
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 circle-box">

@@ -73,6 +73,7 @@ namespace Projeto04
             NomeAcesso.Text = "";
             Senha.Text = "";
             Deletar.Visible = false;
+
         }
 
 
@@ -92,7 +93,6 @@ namespace Projeto04
             NomeAcesso.Text = tb.Rows[0]["NomeAcesso"].ToString();
             Senha.Text = tb.Rows[0]["Senha"].ToString();
             Deletar.Visible = true;
-
         }
 
         protected void Deletar_Click(object sender, EventArgs e)

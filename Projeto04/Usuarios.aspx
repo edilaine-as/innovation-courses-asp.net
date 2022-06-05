@@ -4,13 +4,23 @@
         .danger{
             background-color: #dc3545 !important;
         }
+        .delete{
+            padding: 10px;
+            position: relative;
+            right: 25px;
+            border: none;
+            background: none;
+        }
+        .icon-delete{
+            color: red;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
         <div class="container mt-5">
             <div class="text-center mb-2 mt-5">
-                <h1>Cadastrar usuário</h1>
+                <h1>Usuários</h1>
                 <hr />
             </div>
 
@@ -38,16 +48,23 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                   </div>
                   <div class="modal-body">
-                      <!--formulário-->
+                    <!--formulário-->
                     <asp:Label ID="Codigo" Visible="false" CssClass="d-flex justify-content-end" runat="server" Text=""></asp:Label>  
                     <asp:TextBox ID="Nome" placeholder="Nome" CssClass="input-group mb-3" runat="server"></asp:TextBox>
                     <asp:TextBox ID="NomeAcesso" placeholder="Usuário" CssClass="input-group mb-3" runat="server"></asp:TextBox>
                     <asp:TextBox ID="Senha" placeholder="Senha" CssClass="input-group mb-3" runat="server"></asp:TextBox>
                   </div>
-                  <div class="modal-footer">
-                    <asp:Button ID="Fechar" CssClass="btn btn-secondary" data-bs-dismiss="modal" runat="server" Text="Fechar" />
-                    <asp:Button Text="Salvar" Visible="true" ID="Salvar" OnClick="Salvar_Click" runat="server" CssClass="btn btn-primary" />
-                    <asp:Button Text="Deletar" Visible="false" ID="Deletar" OnClick="Deletar_Click" runat="server" CssClass="btn btn-danger danger" />
+                  <div class="modal-footer d-flex justify-content-between">
+                    <!--botoes-->
+                    <div>
+                        <i class="fa-solid fa-trash-can fa-xl icon-delete"><asp:Button Text="" Visible="false" ID="Deletar" CssClass="delete" OnClick="Deletar_Click" runat="server"/></i>
+                    </div>
+                    <div>
+                        <asp:Button ID="Fechar" CssClass="btn btn-secondary" data-bs-dismiss="modal" runat="server" Text="Fechar" />
+                        <asp:Button Text="Salvar" Visible="true" ID="Salvar" OnClick="Salvar_Click" runat="server" CssClass="btn btn-primary" />
+                    </div>
+                    
+                    
                   </div>
                 </div>
               </div>
@@ -63,7 +80,5 @@
             </div>
             
         </div>
-
-    
         
 </asp:Content>
