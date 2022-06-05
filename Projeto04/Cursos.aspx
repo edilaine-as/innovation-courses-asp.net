@@ -1,46 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="Cursos.aspx.cs" Inherits="Projeto04.Sobre" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style>
-        .course-box{
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .course-box i, .course-box h4, .course-box .btn-secondary{
-            transition: .5s;
-        }
-        .course-box i{
-            font-size: 36px;
-            margin-bottom: 20px;
-            color: #444;
-        }
-        .course-box h4{
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .course-box > i:hover, .course-box > h4:hover{
-            color: #CD851C;
-        }
-        .course-box > .btn-secondary:hover{
-            background-color: #CD851C;
-            border-color: #CD851C;
-        }
-        .course-box a, .course-box a:hover{
-            text-decoration: none;
-            color: white;
-        }
-
-        @media(max-width: 992px) { /*a ordem padrão era 0 - texto; 1 - img; mas eu modifiquei abaixo em telas menores de 992px*/
-            .mobile-order:nth-child(2) { 
-                order: -1;
-            }
-            .mobile-order:nth-child(1) { 
-                order: 1;
-            }
-            
-            /*o segundo filho de plano tem a ordem -1**/
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 

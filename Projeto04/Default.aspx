@@ -1,53 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Projeto04.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style>
-        .background {
-          filter: brightness(0.25) opacity(0.75);
-        }
-        .ul-about{
-            list-style: none;
-            padding-left: 0;
-        }
-        .ul-about li{
-            line-height: 30px;
-        }
-        .ul-about i{
-            color: #CD851C;
-            margin-right: 10px;
-        }
-
-        /*DADOS*/
-        .circle-box div{
-            padding: 50px 40px 0 40px;
-        }
-        .progressbar-text{
-            font-weight: bold;
-            font-size: 32px;
-        }
-        #data-area p{
-            color: white;
-            text-align: center;
-            font-size: 26px;
-            margin-top: 20px;
-        }
-        /*PARALLAX*/
-        .parallax-window {
-            min-height: 400px;
-            background: transparent;
-        }
-        /*RESPONSIVIDADE*/
-        @media(max-width: 992px) { /*a ordem padrão era 0 - texto; 1 - img; mas eu modifiquei abaixo em telas menores de 992px*/
-            .section-order:nth-child(2) { 
-                order: -1;
-            }
-            .section-order:nth-child(1) { 
-                order: 1;
-            }
-            
-            /*o segundo filho de plano tem a ordem -1**/
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="min-vw-100">
