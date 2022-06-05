@@ -1,6 +1,5 @@
 $(document).ready(function () {
     //Progress bar
-    // Progress bar
     let containerA = document.getElementById("circleA");
 
     let circleA = new ProgressBar.Circle(containerA, {
@@ -101,11 +100,10 @@ $(document).ready(function () {
 
     });
 
-
     //Parallax
-    var image = document.getElementsByClassName('thumbnail');
-    new simpleParallax(image, {
-        scale: 1.5
-    });
+    // setTimeout serve para carregar primeiro as imagens
+    setTimeout(function () {
+        $('#data-area').parallax({ imageSrc: 'Imagem/paralax3.jpg' });
+    }, 200);
 });
 

@@ -3,7 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         .background {
-          background: url("https://i.stack.imgur.com/yiAZV.jpg") no-repeat center;
           filter: brightness(0.25) opacity(0.75);
         }
         .ul-about{
@@ -20,17 +19,22 @@
 
         /*DADOS*/
         .circle-box div{
-            padding: 0 40px;
+            padding: 50px 40px 0 40px;
         }
         .progressbar-text{
             font-weight: bold;
             font-size: 32px;
         }
         #data-area p{
-            color: #000000;
+            color: white;
             text-align: center;
             font-size: 26px;
             margin-top: 20px;
+        }
+        /*PARALLAX*/
+        .parallax-window {
+            min-height: 400px;
+            background: transparent;
         }
     </style>
 </asp:Content>
@@ -77,7 +81,7 @@
             </button>
         </div>
 
-        <!--SOBRE-->
+        <!--SEÇÃO SOBRE-->
         <div class="container my-5">
             <h1 class="text-center">Sobre a Innovation Courses</h1>
             <hr />
@@ -104,10 +108,9 @@
             </div>
         </div>
 
-        <!--DADOS-->
-        <div id="data-area">
+        <!--SEÇÃO DADOS-->
+        <div id="data-area" class="parallax-window">
             <!--PARALLAX-->
-            <img class="thumbnail min-vw-100 img-fluid background" style="margin-top: 100px" src="Imagem/paralax3.jpg" alt="Parallax" />
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 circle-box">
@@ -126,6 +129,25 @@
                         <div id="circleD"></div>
                         <p>Mauris iaculis</p>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SEÇÃO-->
+        <div class="container my-5">
+            <div class="row my-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <h5 class="mt-lg-0 mt-md-0 mt-sm-3 mt-3">Estude em qualquer lugar</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                    <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                    <p>Quisque eleifend eleifend pellentesque.</p>
+                    <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                    <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                   
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <img src="Imagem/sobre-02.jpg" class="img-fluid" alt="...">
                 </div>
             </div>
         </div>

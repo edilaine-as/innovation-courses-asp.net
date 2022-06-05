@@ -9,7 +9,7 @@
             <h1>Fale Conosco</h1>
             <hr />
             <div class="my-5">
-                <h2>Nós podemos te ajudar!</h2>
+                <h3>Nós podemos te ajudar!</h3>
                 <p>Sinta-se livre para nos pedir ajuda e sugerir melhorias em nossa unidade de ensino.</p>
             </div>
         </div>

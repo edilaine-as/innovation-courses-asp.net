@@ -117,11 +117,9 @@
     <Content Include="css\Projeto.css" />
     <Content Include="Imagem\siga.png" />
     <Content Include="Imagem\teams.png" />
-    <Content Include="Info.aspx" />
     <Content Include="js\progressbar.min.js" />
     <Content Include="js\script.js" />
-    <Content Include="Linguagens.aspx" />
-    <Content Include="Sobre.aspx" />
+    <Content Include="Cursos.aspx" />
     <Content Include="Usuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -147,20 +145,6 @@
     <Compile Include="FaleConosco.aspx.designer.cs">
       <DependentUpon>FaleConosco.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Info.aspx.cs">
-      <DependentUpon>Info.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Info.aspx.designer.cs">
-      <DependentUpon>Info.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Linguagens.aspx.cs">
-      <DependentUpon>Linguagens.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Linguagens.aspx.designer.cs">
-      <DependentUpon>Linguagens.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Page.Master.cs">
       <DependentUpon>Page.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -174,12 +158,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Sobre.aspx.cs">
-      <DependentUpon>Sobre.aspx</DependentUpon>
+    <Compile Include="Cursos.aspx.cs">
+      <DependentUpon>Cursos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sobre.aspx.designer.cs">
-      <DependentUpon>Sobre.aspx</DependentUpon>
+    <Compile Include="Cursos.aspx.designer.cs">
+      <DependentUpon>Cursos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Usuarios.aspx.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
