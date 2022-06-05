@@ -29,6 +29,17 @@
             text-decoration: none;
             color: white;
         }
+
+        @media(max-width: 992px) { /*a ordem padrão era 0 - texto; 1 - img; mas eu modifiquei abaixo em telas menores de 992px*/
+            .mobile-order:nth-child(2) { 
+                order: -1;
+            }
+            .mobile-order:nth-child(1) { 
+                order: 1;
+            }
+            
+            /*o segundo filho de plano tem a ordem -1**/
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -64,22 +75,74 @@
                         <i class="fa-brands fa-java"></i>
                         <h4>Desenvolvimento Java</h4>
                         <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
-                        <button class="btn btn-secondary" type="button"><a href="#">Saiba mais!</a></button>
+                        <button class="btn btn-secondary" type="button"><a href="#java">Saiba mais!</a></button>
                     </div>
                     <div class="col-md-4 course-box mt-5">
                         <i class="fab fa-android"></i>
                         <h4>Desenvolvimento Android</h4>
                         <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
-                        <button class="btn btn-secondary" type="button"><a href="#">Saiba mais!</a></button>
+                        <button class="btn btn-secondary" type="button"><a href="#mobile">Saiba mais!</a></button>
                     </div>
                     <div class="col-md-4 course-box mt-5">
                         <i class="fas fa-code"></i>
                         <h4>Desenvolvimento WEB</h4>
                         <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
-                        <button class="btn btn-secondary" type="button"><a href="#">Saiba mais!</a></button>
+                        <button class="btn btn-secondary" type="button"><a href="#web">Saiba mais!</a></button>
                     </div>
                 </div>
+            </div>
         </div>
+
+        <div class="container my-5">
+            <div id="java">
+                <div class="row my-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 mobile">
+                        <img src="Imagem/java.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 mobile">
+                        <h5 class="mt-lg-0 mt-md-0 mt-sm-3 mt-3">Desenvolvimento java</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                        <p>Quisque eleifend eleifend pellentesque.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div  id="mobile">
+                <div class="row my-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 mobile-order">
+                        <h5 class="mt-lg-0 mt-md-0 mt-sm-3 mt-3">Desenvolvimento mobile</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                        <p>Quisque eleifend eleifend pellentesque.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 mobile-order">
+                        <img src="Imagem/mobile.jpg" class="img-fluid" alt="...">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="web">
+                <div class="row my-5">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <img src="Imagem/web.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <h5 class="mt-lg-0 mt-md-0 mt-sm-3 mt-3">Desenvolvimento WEB</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                        <p>Quisque eleifend eleifend pellentesque.</p>
+                        <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
+                    </div>
+                </div>
+            </div>
+                
+                
         </div>
         
     </div>

@@ -36,6 +36,17 @@
             min-height: 400px;
             background: transparent;
         }
+        /*RESPONSIVIDADE*/
+        @media(max-width: 992px) { /*a ordem padrão era 0 - texto; 1 - img; mas eu modifiquei abaixo em telas menores de 992px*/
+            .section-order:nth-child(2) { 
+                order: -1;
+            }
+            .section-order:nth-child(1) { 
+                order: 1;
+            }
+            
+            /*o segundo filho de plano tem a ordem -1**/
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -136,7 +147,7 @@
         <!--SEÇÃO-->
         <div class="container my-5">
             <div class="row my-5">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 section-order">
                     <h5 class="mt-lg-0 mt-md-0 mt-sm-3 mt-3">Estude em qualquer lugar</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
@@ -146,7 +157,7 @@
                     <p>Mauris iaculis rhoncus lacus, a auctor nisl pellentesque eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat leo felis, quis dapibus nunc rutrum id. Maecenas dapibus felis in turpis tempor sodales.</p>
                    
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 section-order">
                     <img src="Imagem/sobre-02.jpg" class="img-fluid" alt="...">
                 </div>
             </div>
