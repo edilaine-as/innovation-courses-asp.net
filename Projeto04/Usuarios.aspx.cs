@@ -133,5 +133,15 @@ namespace Projeto04
             }
 
         }
+
+        protected void ExibirUsuarios_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+
+        }
+
+        protected void ExibirUsuarios_CallingDataMethods(object sender, CallingDataMethodsEventArgs e)
+        {
+
+        }
     }
 }

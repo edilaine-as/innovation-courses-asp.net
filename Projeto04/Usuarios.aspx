@@ -59,7 +59,8 @@
             <div class="row mt-1">
                 <section class="content">
                     <div class="container-fluid table-responsive p-0">
-                        <asp:GridView CssClass="table table-striped table-bordered" data-bs-toggle="modal" data-bs-target="#cadUser" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server"></asp:GridView>
+                        <asp:GridView CssClass="table table-striped table-bordered" AutoGenerateColumns="true" AutoGenerateSelectButton="true" OnSelectedIndexChanged="ExibirUsuarios_SelectedIndexChanged" BorderStyle="None" ID="ExibirUsuarios" CellPadding="8" Width="100%" runat="server" data-bs-toggle="modal" data-bs-target="#cadUser">
+                        </asp:GridView>
                     </div>
                 </section>
             </div>
@@ -75,6 +76,8 @@
 
             $('.icon-delete').addClass('d-none');
         }
+
+
     </script>
         
 </asp:Content>
