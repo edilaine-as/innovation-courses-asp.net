@@ -39,6 +39,12 @@
                 <li class="nav-item">
                 <a class="nav-link" href="FaleConosco.aspx">Contato</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Login.aspx">Entrar</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Logout.aspx">Sair</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -73,7 +79,7 @@
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-gray">Fórum</a></li>
                 </ul>
                 </div>
-                <div class="col-md-2 col-sm-4">
+                <div class="col-md-2 col-sm-4" runat="server" id="LinkAdmin">
                 <h5>Admin</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item dropdown">
@@ -81,7 +87,7 @@
                         Erros
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item text-gray" href="ExibirExcecoes.aspx">Exceções</a></li>
+                        <li><a class="dropdown-item text-gray" href="/Admin/ExibirExcecoes.aspx">Exceções</a></li>
                       </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -89,7 +95,7 @@
                         Cadastros
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownCad">
-                        <li><a class="dropdown-item text-gray" href="Usuarios.aspx">Usuários</a></li>
+                        <li><a class="dropdown-item text-gray" href="/Admin/Usuarios.aspx">Usuários</a></li>
                       </ul>
                     </li>
                 </ul>

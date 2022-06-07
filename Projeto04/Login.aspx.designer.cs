@@ -11,43 +11,43 @@ namespace Projeto04
 {
 
 
-    public partial class Page
+    public partial class Login
     {
 
         /// <summary>
-        /// Controle head.
+        /// Controle Mensagem.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Label Mensagem;
 
         /// <summary>
-        /// Controle form1.
+        /// Controle NomeAcesso.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox NomeAcesso;
 
         /// <summary>
-        /// Controle ContentPlaceHolder1.
+        /// Controle Senha.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.TextBox Senha;
 
         /// <summary>
-        /// Controle LinkAdmin.
+        /// Controle Entrar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl LinkAdmin;
+        protected global::System.Web.UI.WebControls.Button Entrar;
     }
 }

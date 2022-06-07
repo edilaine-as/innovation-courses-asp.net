@@ -11,7 +11,14 @@ namespace Projeto04
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(Session["Autenticado"] != null)
+            {
+                LinkAdmin.Visible = true;
+            }
+            else
+            {
+                LinkAdmin.Visible = false;
+            }
         }
     }
 }

@@ -24,7 +24,7 @@ namespace Projeto04
 
         protected void Salvar_Click(object sender, EventArgs e)
         {
-            if(NomeAcessoExiste(Nome.Text, Codigo.Text))
+            if(NomeAcessoExiste(NomeAcesso.Text, Codigo.Text) == false)
             {
                 Mensagem.Visible = true;
                 Mensagem.Text = "Esse nome de acesso já está cadastrado para outro usuário";
@@ -109,11 +109,11 @@ namespace Projeto04
 
         protected bool NomeAcessoExiste(string nomeAcesso, string codigo)
         {
-
             AppDatabase.OleDBTransaction db = new OleDBTransaction();
             db.ConnectionString = conexao;
-
+            
             string comando = "SELECT * FROM Usuarios WHERE nomeAcesso='" + nomeAcesso + "'";
+
             System.Data.DataTable tb = (System.Data.DataTable)db.Query(comando);
 
 
@@ -121,16 +121,16 @@ namespace Projeto04
             {
                 if(tb.Rows[0]["Codigo"].ToString() == codigo)
                 {
-                    return true;
+                    return true; //update
                 }
                 else
                 {
-                    return false;
+                    return false; //invalido
                 }
             }
             else
             {
-                return true;
+                return true; 
             }
 
         }

@@ -76,7 +76,7 @@
     <Content Include="App_Data\DBADST2022.accdb" />
     <Content Include="css\StyleSheet.css" />
     <Content Include="Default.aspx" />
-    <Content Include="ExibirExcecoes.aspx" />
+    <Content Include="Admin\ExibirExcecoes.aspx" />
     <Content Include="FaleConosco.aspx" />
     <Content Include="Imagem\aluno.png" />
     <Content Include="Imagem\banner0.png" />
@@ -120,7 +120,9 @@
     <Content Include="js\progressbar.min.js" />
     <Content Include="js\script.js" />
     <Content Include="Cursos.aspx" />
-    <Content Include="Usuarios.aspx" />
+    <Content Include="Admin\Usuarios.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -131,11 +133,11 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ExibirExcecoes.aspx.cs">
+    <Compile Include="Admin\ExibirExcecoes.aspx.cs">
       <DependentUpon>ExibirExcecoes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ExibirExcecoes.aspx.designer.cs">
+    <Compile Include="Admin\ExibirExcecoes.aspx.designer.cs">
       <DependentUpon>ExibirExcecoes.aspx</DependentUpon>
     </Compile>
     <Compile Include="FaleConosco.aspx.cs">
@@ -144,6 +146,20 @@
     </Compile>
     <Compile Include="FaleConosco.aspx.designer.cs">
       <DependentUpon>FaleConosco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page.Master.cs">
       <DependentUpon>Page.Master</DependentUpon>
@@ -165,11 +181,11 @@
     <Compile Include="Cursos.aspx.designer.cs">
       <DependentUpon>Cursos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Usuarios.aspx.cs">
+    <Compile Include="Admin\Usuarios.aspx.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Usuarios.aspx.designer.cs">
+    <Compile Include="Admin\Usuarios.aspx.designer.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
