@@ -116,13 +116,10 @@ namespace Projeto04
             string comando = "SELECT * FROM Usuarios WHERE nomeAcesso='" + nomeAcesso + "'";
             System.Data.DataTable tb = (System.Data.DataTable)db.Query(comando);
 
-            if (codigo != "")
+
+            if (tb.Rows.Count != 0)
             {
-                return false;
-            }
-            else
-            {
-                if (tb.Rows.Count > 0)
+                if(tb.Rows[0]["Codigo"].ToString() == codigo)
                 {
                     return true;
                 }
@@ -131,17 +128,13 @@ namespace Projeto04
                     return false;
                 }
             }
+            else
+            {
+                return true;
+            }
 
         }
 
-        protected void ExibirUsuarios_RowDataBound(object sender, GridViewRowEventArgs e)
-        {
 
-        }
-
-        protected void ExibirUsuarios_CallingDataMethods(object sender, CallingDataMethodsEventArgs e)
-        {
-
-        }
     }
 }
